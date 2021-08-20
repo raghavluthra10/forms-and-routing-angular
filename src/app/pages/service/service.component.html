@@ -1,0 +1,24 @@
+<div class="container"> 
+
+    <form>
+        <input type="text" name="inputList" [(ngModel)]="inputList" />
+        <button type="submit" (click)="addToList()" > Add </button>
+    </form>
+
+    <div *ngFor="let l of fetchedListArr" class="sub">
+        {{l.name}} {{l.age}}
+        <button (click)="onDelete($event)"  > Delete </button>
+    </div>
+
+    {{inputList}}
+
+
+    <select  >
+        <option *ngFor="let d of dropDown"  > {{d.title}} </option>
+    </select>
+
+    <app-dropdown [dropDown]='dropDown' >
+        
+    </app-dropdown>
+
+</div>

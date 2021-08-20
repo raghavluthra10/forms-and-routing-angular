@@ -1,0 +1,10 @@
+.reactive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+input.ng-touched.ng-invalid {
+    border: 1px solid red;
+}

@@ -1,0 +1,21 @@
+.home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+    height: 150px;
+    justify-content: space-between;
+}
+
+.home__section {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.home__template, .home__reactve {
+    padding: 10px;
+    border-radius: 10px;
+}

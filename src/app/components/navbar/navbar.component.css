@@ -1,0 +1,25 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    background-color: rgb(75, 3, 3);
+    color: white;
+    padding: 0 50px;
+}
+
+
+
+/* .nav__logo {
+
+} */
+
+.nav__pages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__pages > a {
+    margin-left: 50px;
+}

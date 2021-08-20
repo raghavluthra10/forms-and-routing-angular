@@ -1,0 +1,15 @@
+.container {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub {
+    margin-bottom: 10px;
+}
+
+form {
+    border: 1px solid black;
+    margin: 20px;
+}
